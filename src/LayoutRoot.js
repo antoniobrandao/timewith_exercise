@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
 
+import Header from './components/Header'
+import PageMainBody from './components/PageMainBody'
+import Footer from './components/Footer'
+
 class LayoutRoot extends Component {
   render() {
     return (
       <div id='layout-root'>
-        Hello TimeWith
+        <Header />
+        <PageMainBody />
+        <Footer />
       </div>
     )
   }
