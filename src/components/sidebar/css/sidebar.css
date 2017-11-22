@@ -1,0 +1,62 @@
+.sidebar-content {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 45px;
+  width: 330px;
+}
+
+.sidebar-content .articles-list {
+  margin-bottom: 48px;
+}
+
+.sidebar-content .articles-list h6 {
+  margin-bottom: 42px;
+}
+
+.sidebar-content .articles-list .title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #6CD4FF;
+  line-height: 34px;
+}
+
+.sidebar-content .articles-list .author {
+  font-size: 16px;
+  color: #9B9B9B;
+}
+
+.sidebar-content .articles-list .avatar-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar-content .articles-list .labels {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+.sidebar-content .articles-list li {
+  border-bottom: 1px solid #E8E8E8;
+  margin-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 13px;
+}
+
+.sidebar-content .articles-list .labels .title {
+  margin: 0;
+  line-height: 100%;
+  margin-bottom: 2px;
+}
+
+.sidebar-content .articles-list .labels .author {
+  line-height: 100%;
+  margin-left: 0;
+}
+
+.sidebar-content .articles-list .avatar-container .badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

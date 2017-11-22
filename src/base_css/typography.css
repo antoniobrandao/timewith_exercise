@@ -99,6 +99,12 @@ h5.iconed {
   padding-left: 10px;
 }
 
+h6 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #9B9B9B;
+}
+
 h5.iconed img {
   position: relative;
   top: 3px;

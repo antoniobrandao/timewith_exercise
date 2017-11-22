@@ -9,7 +9,7 @@ class Article extends Component {
   render() {
     return (
 
-      <article>
+      <article class='left'>
 
         <p>We all know what it's like to worry from time to time. That flutter of butterflies in your tummy before a final exam, sweaty palms before delivering that big presentation you've been working on for weeks… These are anxious feelings we can all can relate to.</p>
 
@@ -45,7 +45,7 @@ class Article extends Component {
         <h5 className='iconed'><img src={icon_twitter} alt="Twitter" />Feeling self-conscious</h5>
         <p>Nobody likes feeling as though all eyes are on them, but very often this is the case for people who suffer from Social Anxiety.  It’s normal to have days when we don’t feel like socialising, but a person who suffers from social anxiety will feel an overwhelming fear about being in social situations.  They might worry for days - or even weeks - before a particular gathering or event.  And afterwards, they might find themselves running it over and over again in the their minds, analysing what they said and what people might’ve thought about them.</p>
 
-        <h1 className='light'>How can Theraphy help?</h1>
+        <h1 className='light'>How can Therapy help?</h1>
         <p>Living with an anxiety disorder can be scary, overwhelming - and at its very worse, completely debilitating.  But amidst all the discomfort, it’s sometimes helpful to remember that even distressing emotions and sensations hold a purpose.  Anxiety is in fact, a survival tactic hard-wired into us from our ancestors.  It was anxiety that saved them from that grisly bear lurking in the shadows whilst they were out hunting for lunch.  The more highly tuned our fight-or-flight response was, the better chance we had of surviving.  Of course, the difference is today we don’t experience threats in quite the same way as our caveman ancestors…  However, anxiety’s purpose is still there to protect us.</p>
         <p>The problem isn’t anxiety itself, but rather when we get ‘stuck’ in its cycle and the brain gets wired into looking for potential threats.  But there is a way out, and there are lots of tools available that can help.  Talk therapy is great for anxiety because it provides the space to unravel uncomfortable thoughts and feelings in confidence.  For many, bringing these worries into an open space and recognising them for what they are can bring about a sense of relief in itself.  A good therapist will teach you tools to help accept and catch these anxious patterns in their tracks so they’re unable to govern you in the same way.</p>
 

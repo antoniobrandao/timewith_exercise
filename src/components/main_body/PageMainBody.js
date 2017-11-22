@@ -7,7 +7,7 @@ import './css/main_body.css'
 
 import HighlightArea from './HighlightArea'
 import Article from './Article'
-import Sidebar from './sidebar/Sidebar'
+import Sidebar from '../sidebar/Sidebar'
 
 class PageMainBody extends Component {
   render() {
@@ -15,8 +15,8 @@ class PageMainBody extends Component {
       <div id='page-main-body'>
         <HighlightArea />
         <div className='container-2-col'>
-          <Article className='left'/>
-          <Sidebar className='right'/>
+          <Article/>
+          <Sidebar/>
         </div>
       </div>
     );
