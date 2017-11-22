@@ -46,11 +46,12 @@ h3 {
 }
 
 p {
-  max-width: 30rem; /* for better readability */
-  font-size: 16px;
+  /*max-width: 30rem; /* for better readability */
+  font-size: 18px;
   color: #4A4A4A;
   letter-spacing: 0;
-  line-height: 120%;
+  line-height: 34px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -76,3 +77,16 @@ h4 {
   letter-spacing: 0;
   line-height: 34px;
 }
+
+.blockquote-container {
+  padding-left: 24px;
+  border-left: 8px solid #6CD4FF;
+}
+
+blockquote {
+  font-size: 32px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 43px;
+}
+
