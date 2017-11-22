@@ -1,0 +1,51 @@
+.tabbed-quotes {
+  margin-bottom: 45px;
+  margin-top: 40px;
+}
+
+#page-main-body article {
+  max-width: 716px;
+}
+
+.tabbed-quotes .tabs {
+  border: 1px solid rgba(108,212,255,0.31);
+  border-radius: 5px;
+  margin-bottom: 46px;
+}
+
+.tabbed-quotes .tabs li {
+  font-size: 16px;
+  font-weight: bold;
+  color: #9B9B9B;
+  line-height: 34px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  padding-top: 6px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+
+.tabbed-quotes .tabs li.active {
+  color: #6CD4FF;
+  border-bottom: 5px solid #63C1E8;
+}
+
+.tabbed-quotes .blockquote-container button {
+  color: #6CD4FF;
+  border-bottom: 5px solid #63C1E8;
+  line-height: 32px;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid #6CD4FF;
+  border-radius: 30px;
+}
+
+
+.tabbed-quotes .blockquote-container button img {
+  margin-right: 6px;
+  position: relative;
+  top: 2px;
+}

@@ -9,6 +9,7 @@
 .ghost-button {
   display: inline-block;
   vertical-align: top;
+  background-color: transparent;
   border: 2px solid rgba(108,212,255,0.63);
   border-radius: 5px;
   font-size: 16px;

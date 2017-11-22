@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './css/highlight_area.css'
 import './css/large_avatar.css'
+import './css/main_body.css'
 
 import HighlightArea from './HighlightArea'
 import Article from './Article'
@@ -12,10 +13,9 @@ class PageMainBody extends Component {
     return (
       <div id='page-main-body'>
         <HighlightArea />
-        <div>
-          <p>PageMainBody</p>
-          <Article />
-          <Sidebar />
+        <div className='container-2-col'>
+          <Article className='left'/>
+          <Sidebar className='right'/>
         </div>
       </div>
     );

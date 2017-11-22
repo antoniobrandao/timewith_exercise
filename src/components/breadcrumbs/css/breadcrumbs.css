@@ -8,13 +8,13 @@
   vertical-align: top;
 }
 
-#navigation-breadcrumbs li > * {
-  margin-right: 12px;
-}
-
 #navigation-breadcrumbs li {
   position: relative;
-  top: 7px
+  top: 7px;
+}
+
+#navigation-breadcrumbs li > * {
+  margin-right: 12px;
 }
 
 #navigation-breadcrumbs li img {
@@ -27,7 +27,7 @@
   font-family: ProximaNovaSoft-Bold;
   font-size: 16px;
   color: #C3C3C3;
-  letter-spacing: 0;
+  line-height: 20px;
 }
 
 #navigation-breadcrumbs .Select {

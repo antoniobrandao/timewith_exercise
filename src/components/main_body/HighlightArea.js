@@ -17,11 +17,11 @@ class HighlightArea extends Component {
           <div className='left'>
             <h1>Anxiety: When to reach out?</h1>
             <h4>When anxious moments move from momentary worries like, ‘did I lock the door?’ to incessant checking - locking and re-locking - or never-ending racing thoughts that feel overwhelming… It might be worth taking the time to check-in, and reach out for support.</h4>
-            <ul className='tags'>
-              <li className='tag-item ghost-button'>Tag Item 1</li>
-              <li className='tag-item ghost-button'>Tag Item 2</li>
-              <li className='tag-item ghost-button'>Tag Item 3</li>
-            </ul>
+            <div className='tags'>
+              <button className='tag-item ghost-button'>Tag Item 1</button>
+              <button className='tag-item ghost-button'>Tag Item 2</button>
+              <button className='tag-item ghost-button'>Tag Item 3</button>
+            </div>
           </div>
           <div className='right'>
             <LargeAvatar />
@@ -30,10 +30,10 @@ class HighlightArea extends Component {
 
         <div className='bottom container-2-col'>
           <div className='audio-player left'>
-            <div className='ghost-button'>
+            <button className='ghost-button'>
               Play
               <img src={icon_play} alt="Play Audio" />
-            </div>
+            </button>
             <img className='icon-playback' src={icon_playback} alt="Playback" />
             <p className='audio-note'>Audio Version Available (150min)</p>
           </div>
