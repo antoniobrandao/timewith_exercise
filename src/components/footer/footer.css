@@ -154,11 +154,32 @@
 }
 
 #footer .footer-bottom {
-  height: 101px;
+  height: 70px;
+  background-color: white;
+  padding-top: 16px;
 }
 
-#footer .footer-bottom {
-  background-color: white;
+#footer .footer-bottom .central-column .content > * {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  font-size: 14.53px;
+  color: #9B9B9B;
+}
+
+#footer .footer-bottom .central-column .content > *:last-child {
+  margin-right: 12px;
+}
+
+
+#footer .footer-bottom .central-column .content > img {
+  margin-right: 12px;
+  position: relative;
+  top: 10px;
+}
+
+#footer .footer-bottom .central-column .content {
+  margin-left: 78px;
 }
 
 
