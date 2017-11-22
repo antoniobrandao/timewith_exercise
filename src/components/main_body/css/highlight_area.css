@@ -1,0 +1,71 @@
+#highlight-area {
+  margin-bottom: 60px;
+}
+
+#highlight-area .top {
+  margin-top: 33px;
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 33px;
+  margin-bottom: 24px;
+}
+
+#highlight-area .bottom .social-share li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#highlight-area .bottom .social-share li:first-child {
+  margin-left: 0px;
+}
+
+#highlight-area .tags {
+  margin-top: 33px;
+}
+
+#highlight-area .left, #highlight-area .right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#highlight-area .left {
+  width: 819px;
+}
+
+#highlight-area .right {
+  float: right;
+}
+
+#highlight-area .audio-player .ghost-button {
+  border: 1px solid #C3C3C3;
+  color: #9b9b9b;
+  padding-left: 14px;
+  padding-right: 14px;
+  line-height: 38px;
+}
+
+#highlight-area .audio-player .ghost-button img {
+  position: relative;
+  top: 4px;
+  left: 6px;
+  margin-left: 2px;
+  margin-right: 4px;
+}
+
+#highlight-area .audio-player > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#highlight-area .audio-player > .icon-playback {
+  margin-left: 20px;
+  margin-right: 12px;
+  position: relative;
+  top: 12px;
+}
+
+#highlight-area .audio-player > .audio-note {
+  color: #9B9B9B;
+  font-weight: bold;
+  line-height: 40px;
+}

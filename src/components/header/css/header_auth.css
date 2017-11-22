@@ -1,0 +1,20 @@
+/* auth */
+
+#header .auth {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: 20px;
+}
+
+#header .auth a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#header .signup {
+  background-color: #88D28C;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  height:40px;
+}

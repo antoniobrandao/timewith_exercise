@@ -1,15 +1,20 @@
 import React, { Component } from 'react'
 
-import Header from './components/Header'
-import PageMainBody from './components/PageMainBody'
-import Footer from './components/Footer'
+import Header from './components/header/Header'
+import Breadcrumbs from './components/breadcrumbs/BreadCrumbs'
+import PageMainBody from './components/main_body/PageMainBody'
+import Footer from './components/footer/Footer'
+
 
 class LayoutRoot extends Component {
   render() {
     return (
       <div id='layout-root'>
         <Header />
-        <PageMainBody />
+        <div className='central-column'>
+          <Breadcrumbs />
+          <PageMainBody />
+        </div>
         <Footer />
       </div>
     )

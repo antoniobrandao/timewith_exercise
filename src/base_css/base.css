@@ -1,0 +1,42 @@
+.central-column {
+	display: block;
+	max-width: 1150px;
+	margin: 0 auto;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+
+.ghost-button {
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid rgba(108,212,255,0.63);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6CD4FF;
+  letter-spacing: 0;
+  line-height: 36px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.tag-item {
+  border: 2px solid rgba(108,212,255,0.63);
+  color: #6CD4FF;
+  margin-right: 20px;
+}
+
+.tag-item:last-child {
+  margin-right: 0;
+}
+
+.container-2-col .left {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container-2-col .right {
+  display: inline-block;
+  vertical-align: top;
+  float: right
+}

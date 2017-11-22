@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 
-import HighlightArea from './sub_components/HighlightArea'
-import Sidebar from './sub_components/Sidebar'
-import Article from './sub_components/Article'
+import './css/highlight_area.css'
+import './css/large_avatar.css'
+
+import HighlightArea from './HighlightArea'
+import Article from './Article'
+import Sidebar from './sidebar/Sidebar'
 
 class PageMainBody extends Component {
   render() {
@@ -10,6 +13,7 @@ class PageMainBody extends Component {
       <div id='page-main-body'>
         <HighlightArea />
         <div>
+          <p>PageMainBody</p>
           <Article />
           <Sidebar />
         </div>

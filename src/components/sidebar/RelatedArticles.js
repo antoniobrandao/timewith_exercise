@@ -4,7 +4,7 @@ class RelatedArticles extends Component {
   render() {
     return (
       <div className='sidebar-content'>
-        RelatedArticles
+        <p>RelatedArticles</p>
       </div>
     );
   }

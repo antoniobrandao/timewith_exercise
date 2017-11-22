@@ -4,7 +4,7 @@ class Article extends Component {
   render() {
     return (
       <div className='article'>
-        Article
+        <p>Article</p>
       </div>
     );
   }

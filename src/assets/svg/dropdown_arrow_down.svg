@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="9px" viewBox="0 0 14 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="-TW-Content-Page-1" transform="translate(-641.000000, -125.000000)" fill="#9B9B9B">
+            <path d="M654.148453,127.312493 C654.343766,127.11718 654.343766,126.796868 654.148453,126.601555 L652.851577,125.312491 C652.656264,125.117178 652.343764,125.117178 652.148451,125.312491 L648.000008,129.460933 L643.851566,125.312491 C643.656253,125.117178 643.343753,125.117178 643.14844,125.312491 L641.851564,126.601555 C641.656251,126.796868 641.656251,127.11718 641.851564,127.312493 L647.648445,133.101563 C647.843758,133.296875 648.156259,133.296875 648.351571,133.101563 L654.148453,127.312493 Z" id="dropdown_arrow_down"></path>
+        </g>
+    </g>
+</svg>
