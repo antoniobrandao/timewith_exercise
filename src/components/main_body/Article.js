@@ -9,7 +9,7 @@ class Article extends Component {
   render() {
     return (
 
-      <article class='left'>
+      <article className='left'>
 
         <p>We all know what it's like to worry from time to time. That flutter of butterflies in your tummy before a final exam, sweaty palms before delivering that big presentation you've been working on for weeks… These are anxious feelings we can all can relate to.</p>
 
