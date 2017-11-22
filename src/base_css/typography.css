@@ -95,8 +95,8 @@ h5 {
   margin-bottom: 11px;
 }
 
-h5 .iconed {
-  padding-left: 8px;
+h5.iconed {
+  padding-left: 10px;
 }
 
 h5.iconed img {
