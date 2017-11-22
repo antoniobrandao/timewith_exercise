@@ -2,4 +2,163 @@
 	display: block;
 	width: 100%;
 	background-color: #F6F6F6;
+  margin-top: 60px;
 }
+
+#footer .footer-main-nav {
+  height: 100px;
+  background-color: #FF8360;
+  padding-top: 38px;
+}
+
+#footer .footer-main-nav ul, #footer .footer-main-nav .select-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-main-nav .select-container {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  position: relative;
+  top: -6px;
+}
+
+.footer-main-nav .select-container img {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#footer .footer-main-nav li {
+  font-size: 18px;
+  color: #FFFFFF;
+  border-right: 1px solid white;
+  padding-right: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer .footer-main-nav li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+  border: none;
+}
+
+#footer .Select {
+  float: right;
+  background-color: transparent;
+}
+
+#footer .Select {
+  font-size: 16px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  height: 30px;
+  width: 260px !important;
+}
+
+
+#footer .Select-control {
+  border: none;
+  border: 1px solid #E9E6E6;
+  border-radius: 30px;
+  background-color: #fafafa;
+  font-size: 16px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#footer .Select.is-open .Select-control {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#footer .Select-value {
+  padding-left: 16px;
+  background-color: transparent !important;
+}
+
+#footer .Select-menu-outer {
+  position: relative;
+  top: 1px;
+}
+
+#footer .Select-value-label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 34px;
+  padding-left: 46px;
+}
+
+#footer .select-container {
+  position: relative;
+  z-index: 1;
+}
+
+#footer .select-container .flag {
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  top: 9px;
+}
+
+#footer .select-container .arrows {
+  position: absolute;
+  z-index: 2;
+  right: 22px;
+  top: 11px;
+}
+
+.footer-nav-columns {
+  margin-top: 40px;
+  margin-left: 78px;
+  padding-bottom: 60px;
+}
+
+.footer-nav-columns .footer-nav-column {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+  width: 160px;
+}
+
+.footer-nav-columns .footer-nav-column:last-child {
+  margin-right: 0;
+}
+
+.footer-nav-columns .footer-nav-column h6 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #FF8360;
+  margin-bottom: 30px;
+}
+
+.footer-nav-columns .footer-nav-column li {
+  font-size: 13px;
+  color: #959595;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+#footer .footer-bottom {
+  height: 101px;
+}
+
+#footer .footer-bottom {
+  background-color: white;
+}
+
+
