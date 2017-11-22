@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './css/highlight_area.css'
 import './css/large_avatar.css'
+import './css/common_symptoms.css'
 import './css/main_body.css'
 
 import HighlightArea from './HighlightArea'
