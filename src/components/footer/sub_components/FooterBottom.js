@@ -7,7 +7,7 @@ class FooterNavColumns extends Component {
   render() {
     return (
       <div className='footer-bottom'>
-        <div className='central-column'>
+        <div className='central-column smaller'>
           <div className='content'>
             <p>Copyright © 2009-2015 Trinity</p>
             <p>|</p>
